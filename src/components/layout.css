@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mainPink: #f345e4;
+}
+body {
+  font-family: "Caveat", "cursive";
+  color: var(--mainPink);
+  background: peachpuff;
+}
