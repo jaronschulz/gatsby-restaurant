@@ -14,7 +14,7 @@ export default class Navbar extends Component {
       return { navbarOpen: !this.state.navbarOpen }
     })
   }
-  
+
   render() {
     return (
       <NavWrapper>
