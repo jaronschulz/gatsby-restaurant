@@ -55,13 +55,23 @@ const LinkWrapper = styled.ul`
     font-weight: 700;
     text-transform: capitalize;
     cursor: pointer;
-    transition: ${styles.transDefault};
+    ${styles.transDefault};
     :hover {
       background: ${styles.colors.mainGrey};
       color: ${styles.colors.mainYellow};
       padding-left: 1.3rem;
     }
   }
-  height: ${props => (props.open ? "152px" : 0)};
+  height: ${props => (props.open ? "152px" : "0px")};
   overflow: hidden;
+  ${styles.transObject({ time: "0.55s" })};
+  @media (min-width: 768px) {
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    .nav-link:hover {
+      background: ${styles.colors.mainWhite};
+      padding: 0.5rem 1rem;
+    }
+  }
 `
