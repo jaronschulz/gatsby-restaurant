@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-import { styles } from "../utils"
+import { styles } from "."
 
-const Title = ({ title, message }) => {
+export const Title = ({ title, message }) => {
   return (
     <TitleWrapper>
       <h3 className="message">{message}</h3>
@@ -11,8 +11,6 @@ const Title = ({ title, message }) => {
     </TitleWrapper>
   )
 }
-
-export default Title
 
 Title.defaultProps = {
   message: "our message",

@@ -1,9 +1,9 @@
 import * as styles from "./styles"
-import { HomeHeader, PageHeader } from "./Header"
-import { Banner } from "./Banner"
-import { BannerButton, SectionButton } from "./Button"
-import { Section } from "./Section"
-import Title from "./Title"
+import { HomeHeader, PageHeader } from "./header"
+import { Banner } from "./banner"
+import { BannerButton, SectionButton } from "./button"
+import { Section } from "./section"
+import { Title } from "./title"
 
 export {
   styles,
