@@ -1,8 +1,7 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
 import { styles } from "../../../utils"
-import { FaInstagram, FaTwitter, FaF, FaFacebook } from "react-icons/fa"
+import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa"
 
 export default class NavbarIcons extends Component {
   state = {
@@ -32,7 +31,7 @@ export default class NavbarIcons extends Component {
             href={icon.path}
             key={icon.id}
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
           >
             {icon.icon}
           </a>
