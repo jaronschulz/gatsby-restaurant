@@ -11,7 +11,7 @@ const Banner = ({ title, subtitle, children }) => {
     </BannerWrapper>
   )
 }
-export default Banner
+export { Banner }
 
 const BannerWrapper = styled.div`
   margin-bottom: 3rem;
