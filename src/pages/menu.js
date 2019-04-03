@@ -1,13 +1,13 @@
 import React from "react"
-import styled from "styled-components"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { PageHeader } from "../utils"
+import menuImg from "../images/bcg/menuBcg.jpeg"
 
 const MenuPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>this is Menu Page</h3>
+    <PageHeader img={menuImg}> Hello From MenuHeader</PageHeader>
   </Layout>
 )
 

@@ -1,13 +1,14 @@
 import React from "react"
-import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { PageHeader } from "../utils"
+import contactImg from "../images/bcg/contactBcg.jpeg"
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>this is Contact Page</h3>
+    <PageHeader img={contactImg}> Hello From ContactHeader</PageHeader>
   </Layout>
 )
 
