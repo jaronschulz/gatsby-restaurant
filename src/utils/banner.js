@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { styles } from "../utils"
+import { styles } from "."
 
 const Banner = ({ title, subtitle, children }) => {
   return (
