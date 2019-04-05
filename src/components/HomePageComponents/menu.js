@@ -33,8 +33,8 @@ const Menu = () => {
           query={PRODUCTS}
           render={data => {
             const products = data.items.edges
-            return products.map(product => (
-              <Product key={product.node.id} product={product.node} />
+            return products.map(item => (
+              <Product key={item.node.id} product={item.node} />
             ))
           }}
         />
